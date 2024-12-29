@@ -1,0 +1,14 @@
+{
+	"version": 2,
+	"builds": [
+		{
+			"src": "package.json",
+			"use": "@vercel/node",
+			"config": {
+				"commands": {
+					"build": "npm run test && npm run build"
+				}
+			}
+		}
+	]
+}

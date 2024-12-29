@@ -3,12 +3,13 @@
 	"builds": [
 		{
 			"src": "package.json",
-			"use": "@vercel/node",
-			"config": {
-				"commands": {
-					"build": "npm run test && npm run build"
-				}
-			}
+			"use": "@vercel/node"
+		}
+	],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "/"
 		}
 	]
 }

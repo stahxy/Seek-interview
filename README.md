@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Task App - Interview Task Manager
 
-## Getting Started
+Project Description
+This Task App is a coding project developed as part of an interview process. It's designed to demonstrate proficiency in modern web development technologies and practices. The application serves as a task manager specifically tailored for managing interview-related tasks.
 
-First, run the development server:
+Technologies Used
+Next.js 14.2
+React 18.2
+Tailwind CSS
+shadcn/ui
+Prerequisites
+Ensure you have the following installed on your system:
 
-```bash
+Node.js (version 14 or higher)
+npm (usually comes with Node.js)
+Installation
+Clone this repository:
+
+git clone https://github.com/stahxy/Seek-interview.git
+Navigate to the project directory:
+
+cd seek
+Install project dependencies:
+
+npm install
+Running the Project
+To run the project in development mode:
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser and visit http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Running Tests
+To run the test suite:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm run test
+This command will execute all the tests in the project and provide you with the results.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Building for Production
+To build the project for production:
 
-## Learn More
+Run the build command:
 
-To learn more about Next.js, take a look at the following resources:
+npm run build
+To start the production version:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm start
+Key Features
+Task management functionality focused on interview processes
+Responsive user interface built with Tailwind CSS and shadcn/ui
+Optimized performance using Next.js 14.2 and React 18.2
+Comprehensive test suite to ensure code quality and functionality
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Additional Notes
+This project is intended to showcase:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Proficiency in React and Next.js
+Understanding of modern CSS frameworks (Tailwind)
+Ability to create responsive and accessible user interfaces
+Implementation of state management and data flow in a React application
+Writing and running tests for React components and functionality
